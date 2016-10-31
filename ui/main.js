@@ -16,8 +16,9 @@ img.onclick=function()
 };
 
 
+
+var button=document.getElementById('_btn');
 var counter=0;
-var button=document.getElementByID('_btn');
 button.onclick=function()
 {
     counter=counter+1;
