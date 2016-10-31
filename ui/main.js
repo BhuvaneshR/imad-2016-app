@@ -21,7 +21,7 @@ var button=document.getElementByID('_btn');
 button.onclick=function()
 {
     counter=counter+1;
-    res.send(counter.toString());
-    
+    var span=document.getElementById('count');
+    span.innerHTML=counter.toString();
     
 };
