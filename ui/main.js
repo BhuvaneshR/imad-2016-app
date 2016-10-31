@@ -16,6 +16,6 @@ button.onclick=function()
         
     };
    
-    request.open("GET","http://http://bhuvaneshr.imad.hasura-app.io/counter",true);
+    request.open("GET","http://bhuvaneshr.imad.hasura-app.io/counter",true);
     request.send(null);
 };
