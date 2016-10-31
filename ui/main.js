@@ -14,3 +14,14 @@ img.onclick=function()
 {
     var inter=setInterval(moveRight,100);
 };
+
+
+var counter=0;
+var button=document.getElementByID('_btn');
+button.onclick=function()
+{
+    counter=counter+1;
+    res.send(counter.toString());
+    
+    
+};
