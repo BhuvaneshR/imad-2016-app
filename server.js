@@ -9,6 +9,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/profile.html', function (req, res)
+{
+  res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
+});
+
 var articles={
    'articleone':{
     title:'Article One',
@@ -89,10 +94,7 @@ app.get('/:articlename',function(req,res){
 });
 
 
-app.get('/profile.html', function (req, res)
-{
-  res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
-});
+
 var counter=0;
 app.get('/counter', function(req,res)
 {
