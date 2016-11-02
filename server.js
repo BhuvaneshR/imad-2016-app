@@ -14,6 +14,36 @@ app.get('/profile.html', function (req, res)
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 
+
+
+
+var counter=0;
+app.get('/counter', function(req,res)
+{
+    counter = counter + 1;
+    res.send(counter.toString());
+}
+);
+var names=[];
+app.get('/submit-name', function (req, res) {
+var name=req.query.name;
+  names.push(name);
+  res.send(JSON.stringify(names));
+});
+
+
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
+app.get('/ui/465346176.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '465346176.jpg'));
+});
+
+
 var articles={
    'articleone':{
     title:'Article One',
@@ -91,34 +121,6 @@ return htmltemplate;
 app.get('/:articlename',function(req,res){
     var articlename=req.params.articlename;
      res.send(createtemplate(articles[articlename]));
-});
-
-
-
-var counter=0;
-app.get('/counter', function(req,res)
-{
-    counter = counter + 1;
-    res.send(counter.toString());
-}
-);
-var names=[];
-app.get('/submit-name', function (req, res) {
-var name=req.query.name;
-  names.push(name);
-  res.send(JSON.stringify(names));
-});
-
-
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-});
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
-
-app.get('/ui/465346176.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '465346176.jpg'));
 });
 
 
