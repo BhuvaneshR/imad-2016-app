@@ -14,9 +14,6 @@ app.get('/profile.html', function (req, res)
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 
-
-
-
 var counter=0;
 app.get('/counter', function(req,res)
 {
