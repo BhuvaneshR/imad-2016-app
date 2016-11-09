@@ -23,7 +23,10 @@ body {
 .button{
     background-color:mediumblue;
     padding:10px 32px;
-    display:inline;
+    display:inline-block;
     color:white;
     border-style:outset;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
