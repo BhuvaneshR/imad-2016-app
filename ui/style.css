@@ -25,7 +25,7 @@ body {
     padding:10px 32px;
     display:inline-block;
     color:white;
-    border-style:outset;
+    border-style:none;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
