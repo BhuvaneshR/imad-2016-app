@@ -103,11 +103,13 @@ var articles={
 <p>October 30</p>
 </div>
 <div>
-<p>This is my third article</p>
+<p>This is my third article This is my third article This is my third article This is my third article
+   This is my third article This is my third article This is my third article This is my third article
+   This is my third article This is my third article This is my third article This is my third article
+   This is my third article This is my third article This is my third article This is my third article
+   </p>
 </div>
-<div>
-<a href='https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.freefoto.com%2Fimages%2F2000%2F03%2F2000_03_52---Number-Three_web.jpg&imgrefurl=http%3A%2F%2Fwww.freefoto.com%2Fpreview%2F2000-03-52%2FNumber-Three&docid=snq6DZOc3ApG4M&tbnid=fDyLAxJU8PMUmM%3A&w=400&h=600&hl=en&bih=659&biw=1366&ved=0ahUKEwiZxpCZzYLQAhWKt48KHazwDa44ZBAzCDgoNjA2&iact=mrc&uact=8' target='_blank'><img src='/ui/three.jpg' alt='third article' class='img-medium'/></a>
-</div>`
+
    }
 };
 function createtemplate(data){
