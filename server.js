@@ -58,9 +58,9 @@ var articles={
     title:'Article One',
     content:`
 <div>
-       <a href='/' class='button'>Home</a><br/>
-       <a href='/profile.html' class='button'>profile</a><br/>
-       <a href='/articletwo' class='button'>Article two</a><br/>
+       <a href='/' class='button'>Home</a>
+       <a href='/profile.html' class='button'>profile</a>
+       <a href='/articletwo' class='button'>Article two</a>
        <a href='/articlethree' class='button'>Article three</a>
 </div>
 <div>
@@ -76,9 +76,9 @@ var articles={
    'articletwo':{
        title:'Article Two',
        content:`     <div>
-<a href='/' class='button'>Home</a><br/>
-<a href='/profile.html' class='button'>profile</a><br/>
-<a href='/articleone' class='button'>Article one</a><br/>
+<a href='/' class='button'>Home</a>
+<a href='/profile.html' class='button'>profile</a>
+<a href='/articleone' class='button'>Article one</a>
 <a href='/articlethree' class='button'>Article three</a>
 </div>
 <div>
@@ -94,10 +94,10 @@ var articles={
    'articlethree':{
        title:'Article Three',
        content:` <div>
-<a href='/' class='button'>Home</a><br/>
-<a href='/profile.html' class='button'>profile</a><br/>
-<a href='/articleone' class='button'>Article one</a><br/>
-<a href='/articletwo' class='button'>Article two</a><br/>
+<a href='/' class='button'>Home</a>
+<a href='/profile.html' class='button'>profile</a>
+<a href='/articleone' class='button'>Article one</a>
+<a href='/articletwo' class='button'>Article two</a>
 </div>
 <div>
 <p>October 30</p>
