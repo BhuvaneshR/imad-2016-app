@@ -104,7 +104,7 @@ var articles={
 <p>October 30</p>
 </div>
 <div class='three'> 
-<div>
+<div class='para'>
 <p>This is my third article This is my third article This is my third article This is my third article
    This is my third article This is my third article This is my third article This is my third article
    This is my third article This is my third article This is my third article This is my third article
