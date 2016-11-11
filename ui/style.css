@@ -38,3 +38,7 @@ body {
 .para{
     margin-left:600px;
 }
+.back{
+    background-image:url("/ui/back.jpeg");
+    background-repeat:no-repeat;
+}
