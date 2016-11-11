@@ -31,7 +31,10 @@ body {
     text-decoration:none;
 }
 .three{
-    margin-left:600px;
     background-image:url("/ui/tree.jpeg");
     background-position:top left;
+     background-repeat: no-repeat;
+}
+.para{
+    margin-left:600px;
 }
