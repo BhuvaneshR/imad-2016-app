@@ -93,7 +93,7 @@ var articles={
    },
    'articlethree':{
        title:'Article Three',
-       content:`<div class='three'> 
+       content:`
        <div>
 <a href='/' class='button'>Home</a>
 <a href='/profile.html' class='button'>profile</a>
@@ -103,6 +103,7 @@ var articles={
 <div>
 <p>October 30</p>
 </div>
+<div class='three'> 
 <div>
 <p>This is my third article This is my third article This is my third article This is my third article
    This is my third article This is my third article This is my third article This is my third article
