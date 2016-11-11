@@ -49,8 +49,8 @@ app.get('/ui/two.jpg', function (req, res) {
 });
 
 
-app.get('/ui/three.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'three.jpg'));
+app.get('/ui/tree.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'tree.jpeg'));
 });
 
 var articles={
