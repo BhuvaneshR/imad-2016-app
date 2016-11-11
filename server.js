@@ -53,6 +53,10 @@ app.get('/ui/tree.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tree.jpeg'));
 });
 
+app.get('/ui/back.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'back.jpeg'));
+});
+
 var articles={
    'articleone':{
     title:'Article One',
