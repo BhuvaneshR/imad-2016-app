@@ -162,7 +162,7 @@ return htmltemplate;
 }
 
 app.get('/articles/:articlename',function(req,res){
-    pool.qeury('SELECT *FROM article WHERE title='+req.params.articlename,function(err,result){
+    pool.qeury("SELECT *FROM article WHERE title="+req.params.articlename,function(err,result){
         if(err)
         {
             res.status(500).send(err.toString());
