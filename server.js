@@ -18,9 +18,10 @@ app.get('/', function (req, res) {
 });
 
 
+var pool = new Pool(config)
 app.get('/test-db', function (req, res) {
  
- Pool.query('SELECT *FROM test',function(err,result){
+ pool.query('SELECT *FROM test',function(err,result){
      
      if(err)
      {
