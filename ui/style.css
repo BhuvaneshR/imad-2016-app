@@ -37,6 +37,7 @@ body {
 }
 .para{
     margin-left:600px;
+    font-size:200px;
 }
 .back{
     background-image:url("/ui/back.jpeg");
